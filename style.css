@@ -1,0 +1,127 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+body{
+          font-family: sans-serif;
+}
+
+.container{
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          align-items: center ;
+          justify-content: center;
+          flex-wrap: wrap; 
+          padding: 0px 50px;   
+}
+
+.section{
+          width: 360px;
+          height: 548.11px;
+          margin: 20px 20px;
+}
+
+
+
+.bar{
+          width: 90%;
+          height: 11px;
+          border-radius: 10px;
+          background: rgba(189, 189, 189, 0.632);
+          margin: 5px auto;
+          display: flex;
+}
+
+
+
+/* second section */
+
+.section__pic{
+          width: 360px;
+          height: 233.51px;
+          border: 0.1px solid rgba(0, 0, 0, 0.129);
+}
+
+#video__player{
+          width: 100% !important;
+          height: 100% !important;
+          object-fit: cover;
+}
+
+.section__pic img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+}
+
+.user__pic img{
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+          border-radius: 50%;
+          margin: 5px 0px;
+}
+
+.user__pic span{
+          margin-left: 15px;
+}
+
+.user__pic span{
+          color: rgb(98, 98, 98);
+}
+
+
+.user__pic{
+          display: flex;
+          align-items: center;
+          margin-bottom: 18px;
+}
+
+.section__info{
+          width: 100%;
+          height: 314.6px;
+          padding: 10px 15px;
+          background: rgba(138, 138, 138, 0.17);
+}
+
+.section__info p:nth-child(1){
+          font-weight: bold;
+          font-size: 18px;
+          margin: 5px 0px;
+}
+
+.section__info p:nth-child(2){
+          font-weight: lighter;
+          font-size: 16px;
+          color: rgb(98, 98, 98);
+          margin: 8px 0px;
+}
+
+
+
+/* money section */
+
+.money{
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 10px 0px;
+}
+
+.money__one p:nth-child(2), .money__two p:nth-child(2), .money__three p:nth-child(2){
+          color: rgb(175, 133, 27);
+          font-weight: bold;
+}
+
+
+.donate a{
+          color: white;
+          text-decoration: none;
+          padding: 13px 20px;
+          background: rgb(175, 133, 27);
+          border-radius: 25px;
+}
